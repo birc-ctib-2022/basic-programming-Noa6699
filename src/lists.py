@@ -58,3 +58,5 @@ match sys.argv[1]:
     case _:
         print(f"Incorrect command {sys.argv[1]}.", file=sys.stderr)
         sys.exit(1)
+
+    print(mean)
